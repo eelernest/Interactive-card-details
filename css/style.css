@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.cont-relative{
+    position: relative;
+}
+.coll{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+.bg-image{
+    width: 100%;
+    height: 100vh;
+}
+/*FRONT*/
+.date-img{
+    width: 450px;
+    height: 260px;
+    top: 27%;
+    left: 15%;
+    position: absolute;
+}
+.date-img img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.photo img{
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    top: 10%;
+    left: 10%;
+}
+.number{
+    position: absolute;
+    color: white;
+    letter-spacing:8px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    top: 52%;
+    left: 10%;
+}
+.number span{
+    letter-spacing:6px;
+    font-weight: 600;
+    font-family: Barlow;
+    font-weight: 500;
+}
+.name{
+    position: absolute;
+    color: white;
+    font-size: 1.1rem;
+    top: 80%;
+    left: 10%;
+    font-family: Barlow;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.date{
+    position: absolute;
+    color: white;
+    font-size: 1.1rem;
+    top: 80%;
+    left: 83%;
+    font-family: Barlow;
+    font-weight: 500;
+}
+/*BACK*/
+.d-back-img{
+    width: 450px;
+    height: 260px;
+    top: 54%;
+    left: 22%;
+    position: absolute;
+}
+.d-back-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    
+    box-shadow: 200px -100px 1000px 0px rgb(176, 176, 176);
+}
+.back-num{
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing:5px;
+    top: 43%;
+    left: 80%;
+    font-family: Barlow;
+    font-weight: 500;
+}
+/*FORMS*/
+.forms{
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    z-index: 3;
+}
+.card-name{
+    width: 100%;
+    
+}
+.card-number{
+    width: 100%;
+    
+}
+.card-date{
+    width: 60%;
+    
+}
+.card-cvc{
+    width: 39%;
+}
+.card-cvc .cvc{
+    width: 100%;
+}
+.form-width{
+    width: 45%;
+    display: inline-block;
+}
+.form-control{
+    height: 40px;
+}
+.linea-b{
+    display: inline-block;
+}
+.btn-lg{
+    width: 100%;
+    height: 55px;
+}
+/*ANIMATION*/
+.removes{
+    display: none;
+}
+.attribution { 
+    font-size: 10px; 
+    text-align: end; 
+    margin-top: -1%;
+    margin-right: 15%;
+}
+@media screen and (max-width: 1300px){
+    
+    .section2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .forms{
+        width: 90%;
+        height: auto;
+        margin-left: 0%;
+    }
+    .coll{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: 30vh;
+    }
+    .bgimg{
+        width: 100%;
+        height: 20vh;
+    }
+    .bg-image{
+        width: 100%;
+        height: 20vh;
+    }
+    .attribution{
+        display: flex;
+        justify-content: center;
+        margin-top: 7%;
+        margin-right: 0px;
+    }
+/*FRONT*/
+    .date-img{
+        width: 212px;
+        height: 115px;
+        top: 17.5%;
+        left: calc(100% - 80%);
+        /*left: 13%;*/
+        z-index: 3;
+    }
+    .date-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .photo img{
+        height: 20px;
+        width: 35px;
+        top: 10%;
+        left: 10%;
+    }
+    .number{
+        letter-spacing:0px;
+        font-weight: 500;
+        font-size: 0.71rem;
+        top: 52%;
+        left: 10%;
+    }
+    .number span{
+        letter-spacing:4px;
+        font-family: Barlow;
+        font-weight: 500;
+    }
+    .name{
+        font-size: 0.7rem;
+        top: 80%;
+        left: 10%;
+        font-family: Barlow;
+        font-weight: 500;
+    }
+    .date{
+        font-size: 0.8rem;
+        top: 80%;
+        left: 83%;
+        font-family: Barlow;
+        font-weight: 500;
+    }
+/*BACK*/
+    .d-back-img{
+        width: 235px;
+        height: 110px;
+        top: 8%;
+        left: calc(100% - 73%);
+        /*left: 23%;*/
+        position: absolute;
+        z-index: 2;
+    }
+    .d-back-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+        
+        box-shadow: 200px -100px 1000px 0px rgb(176, 176, 176);
+    }
+    .back-num{
+        position: absolute;
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing:4px;
+        top: 43%;
+        left: 72%;
+        font-family: Barlow;
+        font-weight: 500;
+    }
+    .form-mobile{
+        height: 72vh;
+        padding: 10%;
+    }
+    .h5{
+        font-size: 0.8rem;
+    }
+    .card-date{
+        width: 50%;
+    }
+    .card-date .yy{
+        margin-left: 2%;
+    }
+    .card-cvc{
+        width: 39%;
+        
+    }
+    .card-cvc .cvc{
+        width: 100%;
+    }
+    .form-width{
+        width: 45%;
+        display: inline-block;
+    }
+    .form-control{
+        height: 40px;
+    }
+    .linea-b{
+        display: inline-block;
+    }
+    .btn-lg{
+        width: 100%;
+        height: 55px;
+    }
+}
